@@ -1,0 +1,88 @@
+:root {
+    --num-img: 4;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.headline {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #251760;
+    padding: 100px;
+    font-size: larger;
+}
+
+.description-container h2 {
+    margin: 0;
+    padding: 0;
+    color: #cd8a8a;
+}
+
+.background-img {
+    height: 100vh;
+}
+
+.background-img, .footer {
+    background: url('./night1.webp') center/cover fixed;
+}
+
+.quote-container {
+    background: url('./pho-img.webp') center/cover fixed;
+    padding: 300px 0 400px 200px;
+}
+
+.quote-box {
+    width: 40%;
+}
+
+.quote-container p {
+    margin: 0 20px 0 0;
+    font-weight: 700;
+}
+
+.footer {
+    font-size: 1rem;
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    padding: 25px;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    font-weight: 700;
+}

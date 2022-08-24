@@ -1,6 +1,25 @@
 export default function pageLoad () {
     const content = document.querySelector('#content');
 
+    const headerContainer = document.createElement('div');
+    headerContainer.classList.add('header-container');
+    const header = document.createElement('div');
+    header.classList.add('header');
+    const home = document.createElement('div');
+    home.classList.add('home');
+    home.innerHTML = "<button class='home-btn'>HOME</button>";
+    const menu = document.createElement('div');
+    menu.classList.add('menu');
+    menu.innerHTML = "<button class='menu-btn'>MENU</button>";
+    const contact = document.createElement('div');
+    contact.classList.add('contact');
+    contact.innerHTML = "<button class='contact-btn'>CONTACT</button>";
+
+    header.appendChild(home);
+    header.appendChild(menu);
+    header.appendChild(contact);
+    headerContainer.appendChild(header);
+
     const headline = document.createElement('div');
     headline.classList.add('headline');
     headline.innerText = 'PHO LOVE';
@@ -36,6 +55,7 @@ export default function pageLoad () {
     quoteBox.appendChild(quoteFrom);
     quoteContainer.appendChild(quoteBox);
 
+    content.appendChild(headerContainer);
     content.appendChild(headline);
     content.appendChild(night1);
     content.appendChild(descriptionContainer);

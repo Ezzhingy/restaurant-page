@@ -10,5 +10,6 @@ Created using HTML, CSS, and JavaScript. Compiled npm and webpack. From this pro
 - ./src/images/night2.jpeg: caveman
 - ./src/images/pho-img.webp: Freepik
 - ./src/images/pho2.webp: Hion2000
+- .src/images/pho3.gif: achingunsightlyharrierhawk
 
 PHO LOVE inspired by Pho Vuho

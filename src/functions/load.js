@@ -1,5 +1,7 @@
 export default function pageLoad () {
-    const content = document.querySelector('#content');
+    const content = document.querySelector('.content');
+    const general = document.querySelector('.general');
+    const footerContainer = document.querySelector('.footer-container');
 
     const headerContainer = document.createElement('div');
     headerContainer.classList.add('header-container');
@@ -55,12 +57,13 @@ export default function pageLoad () {
     quoteBox.appendChild(quoteFrom);
     quoteContainer.appendChild(quoteBox);
 
-    content.appendChild(headerContainer);
+    general.appendChild(headerContainer);
     content.appendChild(headline);
     content.appendChild(night1);
     content.appendChild(descriptionContainer);
     content.appendChild(quoteContainer);
-    content.appendChild(footer);
+    
+    footerContainer.appendChild(footer);
 
     return content;
 }   

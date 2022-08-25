@@ -1,0 +1,39 @@
+.menu-background {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) fixed, url('../images/night2.jpeg') center/cover fixed;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.menu-grid {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 80px;
+    margin: 0 20px 0 20px;
+}
+
+.cell {
+    height: 150px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+
+.food-desc {
+    color: white;
+    margin: 0 0 0 40px;
+}
+
+#content1::after {
+    content: "\a";
+    white-space: pre;
+}
+
+.food-img {
+    height: 80%;
+    width: auto;
+    margin: 20px 0 0 20px;
+}

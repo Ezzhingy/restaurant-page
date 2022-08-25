@@ -6,8 +6,9 @@ Created using HTML, CSS, and JavaScript. Compiled npm and webpack. From this pro
 - Use the background CSS property to improve the look of the browser
 
 **References:**
-- ./src/night1.webp: K_awa
-- ./src/pho-img.webp: Freepik
-
+- ./src/images/night1.webp: K_awa
+- ./src/images/night2.jpeg: caveman
+- ./src/images/pho-img.webp: Freepik
+- ./src/images/pho2.webp: Hion2000
 
 PHO LOVE inspired by Pho Vuho

@@ -2,7 +2,21 @@
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) fixed, url('../images/night2.jpeg') center/cover fixed;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+}
+
+.menu-background h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.menu-background div {
+    align-self: center;
+    border: 1px solid;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    padding: 20px;
 }
 
 .menu-grid {

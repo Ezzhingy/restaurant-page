@@ -4,9 +4,11 @@ export default function menuLoad () {
     const menuContainer = document.createElement('div');
     menuContainer.classList.add('menu-background');
 
-    // const foo = document.createElement('p');
-    // foo.innerText = 'asdasdasdasdasdasdasdsad asd asd asd sad as daw das  e';
-    // menuContainer.appendChild(foo);
+    const titleContainer = document.createElement('div');
+    const menuTitle = document.createElement('h1');
+    menuTitle.innerText = 'NOODLE SOUP MENU';
+    titleContainer.appendChild(menuTitle);
+    menuContainer.appendChild(titleContainer);
 
     const menuGrid = document.createElement('div');
     menuGrid.classList.add('menu-grid');
@@ -30,12 +32,5 @@ export default function menuLoad () {
     }
     menuContainer.appendChild(menuGrid);
 
-    // const bar = document.createElement('h1');
-    // bar.innerText = 'hello world';
-    // menuContainer.appendChild(bar);
-
-
     content.appendChild(menuContainer);
-
-
 }

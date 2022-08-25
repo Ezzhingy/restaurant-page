@@ -46,7 +46,7 @@ export default function pageLoad () {
     const quote = document.createElement('h1');
     const quoteFrom = document.createElement('h1');
     quote.innerText = 'Authentic Vietnamese Famous Rice Noodle Soup "Pho" and Asian Cusine. Try out our yummy Pad Thai and hot Stir Fried dishes.';
-    quoteFrom.innerText = '-Pho LOVE';
+    quoteFrom.innerText = '-PHO LOVE';
     quoteFrom.style.fontStyle = 'italic';
 
     const footer = document.createElement('div');

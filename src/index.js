@@ -1,8 +1,10 @@
 import pageLoad from './functions/load';
 import menuLoad from './functions/menu';
+import contactLoad from './functions/contact'
 import './styles/load.css';
 import './styles/normalize.css';
 import './styles/menu.css'
+import './styles/contact.css'
 
 function home () {
     const content = document.querySelector('.content');
@@ -25,22 +27,23 @@ function menu () {
 }
 
 function contact () {
-    // const content = document.querySelector('.content');
-    // const menuContent = document.querySelector('.menu-content');
-    // const contactContent = document.querySelector('.contact-content');
+    const content = document.querySelector('.content');
+    const menuContent = document.querySelector('.menu-content');
+    const contactContent = document.querySelector('.contact-content');
 
-    // menuContent.style.display = 'none';
-    // contactContent.style.display = 'none';
-    // content.style.display = 'block';
+    content.style.display = 'none';
+    menuContent.style.display = 'none';
+    contactContent.style.display = 'block';
 }
 
 pageLoad();
 menuLoad();
+contactLoad();
 
 const menuContent = document.querySelector('.menu-content');
-// const contactContent = document.querySelector('.contact-content');
+const contactContent = document.querySelector('.contact-content');
 menuContent.style.display = 'none';
-// contactContent.style.display = 'none';
+contactContent.style.display = 'none';
 
 const homeBtn = document.querySelector('.home-btn');
 const menuBtn = document.querySelector('.menu-btn');

@@ -1,5 +1,6 @@
 :root {
-    --num-img: 4;
+    --purple: #251760;
+    --pink: #cd8a8a;
 }
 
 body {
@@ -31,7 +32,7 @@ body {
     position: fixed;
     display: flex;
     gap: 50px;
-    background-color: #251760;
+    background-color: var(--purple);
     padding: 50px;
 }
 
@@ -43,7 +44,7 @@ body {
     font-size: 80px;
     border: 10px solid #f1f1f1;
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -57,7 +58,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #251760;
+    background-color: var(--purple);
     padding: 100px;
     font-size: larger;
 }
@@ -65,7 +66,7 @@ body {
 .description-container h2 {
     margin: 0;
     padding: 0;
-    color: #cd8a8a;
+    color: var(--pink);
 }
 
 .background-img {
@@ -93,7 +94,7 @@ body {
     margin-top: auto;
     justify-content: center;
     padding: 25px;
-    background-color: #251760;
+    background-color: var(--purple);
 }
 
 .footer p {

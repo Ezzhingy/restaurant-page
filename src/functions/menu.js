@@ -1,5 +1,3 @@
-import pho2 from '../images/pho2.webp';
-
 export default function menuLoad () {
     const content = document.querySelector(".menu-content");
 
@@ -21,7 +19,7 @@ export default function menuLoad () {
 
         const foodImg = document.createElement('img');
         foodImg.classList.add('food-img');
-        foodImg.src = pho2;
+        foodImg.src = '../src/images/pho2.webp';
         foodImg.alt = 'Pho Image';
 
         const foodDesc = document.createElement('p');
